@@ -58,7 +58,7 @@ function checkAnswer(currentLevel){
             $("body").toggleClass("game-over");
         }, 200)
         $("#level-title").text("Game Over, Press anywhere to Restart");
-        setTimeout(startOver, 200);
+        setTimeout(startOver(), 200);
     }
 }
 
